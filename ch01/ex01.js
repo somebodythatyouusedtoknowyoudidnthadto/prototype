@@ -1,5 +1,7 @@
 const a =10
+let b =20;
 
-console.log(a);
+console.log(a)
 
-initial commit
+b =30;
+console.log(b);
