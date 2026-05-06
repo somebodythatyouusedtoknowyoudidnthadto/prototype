@@ -1,8 +1,10 @@
-function solution(start_num, end_num) {
-    var answer = [];    
-    for (var i =start_num; i <=end_num; i++){
-        answer.push(i)
+function solution(num_list) {
+    let answer = 0;
+    
+    for(let i =0; i <num_list.length; i++){
+        if(i>=0){
+            return i
+        }
     }
-    return answer;
-
+    return -1;
 }
